@@ -16,13 +16,15 @@
   </a>
     <a href="https://twitter.com/fjayy21" target="blank">
       <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="shaafsalman_ss" height="40" width="40" />
-  \</a>
+  </a>
+    <a href="https://discord.gg/kensujin">
+      <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="kensujin" height="40" width="40" /></a>
   </div>
   <br>
   
   <p><b>Contact me at:</b> farhanjafri21@gmail.com</p>
 
-  <img src="https://komarev.com/ghpvc/?username=farhanj21&label=Profile%20views&color=red&style=flat" alt="farhanj21" /> 
+  <img src="https://komarev.com/ghpvc/?username=farhanj21&label=Profile%20views&color=red&style=flat" alt="farhanj2" /> 
   
   ---
 
