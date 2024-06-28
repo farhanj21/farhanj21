@@ -5,15 +5,18 @@
   </h1>
   
   <div id="badges">
-  <a href="https://www.linkedin.com/in/farhan-jafri21/">
+  <a href="https://www.linkedin.com/in/farhan-jafri21/" target="blank">
     <img src="https://github.com/devicons/devicon/blob/master/icons/linkedin/linkedin-original.svg" alt="LinkedIn Badge" width="40" height="40"/>
   </a>
-  <a href="https://www.youtube.com/c/Kensu2121">
+  <a href="https://www.youtube.com/c/Kensu2121" target="blank">
     <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="Youtube Badge"  width="50" height="40"/>
   </a>
-  <a href="https://www.instagram.com/syedfarhanjafri/">
+  <a href="https://www.instagram.com/syedfarhanjafri/" target="blank"> 
     <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram Badge" width="40" height="40"/>
   </a>
+    <a href="https://twitter.com/fjayy21" target="blank">
+      <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="shaafsalman_ss" height="40" width="40" />
+  \</a>
   </div>
   <br>
   
