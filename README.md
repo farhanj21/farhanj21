@@ -1,16 +1,61 @@
-## Hi there 👋
+<div id="header" align="center">
+  <h1>
+  Hi, This is Syed Farhan Jafri
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
+  </h1>
+  
+  <div id="badges">
+  <a href="https://www.linkedin.com/in/farhan-jafri21/">
+    <img src="https://github.com/devicons/devicon/blob/master/icons/linkedin/linkedin-original.svg" alt="LinkedIn Badge" width="40" height="40"/>
+  </a>
+  <a href="https://www.youtube.com/c/Kensu2121">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="Youtube Badge"  width="50" height="40"/>
+  </a>
+  <a href="https://www.instagram.com/syedfarhanjafri/">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram Badge" width="40" height="40"/>
+  </a>
+  </div>
+  <br>
+  
+  <p><b>Contact me at:</b> farhanjafri21@gmail.com</p>
+  
+  ---
 
-<!--
-**farhanj21/farhanj21** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### :hammer_and_wrench: Languages and Tools :
 
-Here are some ideas to get you started:
+<h3>Frontend:</h3>
+<div>  
+    <img src="https://skillicons.dev/icons?i=java,react,spring,css,tailwind,html,bootstrap,javascript" /><br>
+</div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<h3>Backend:</h3>
+<div>
+  <img src="https://skillicons.dev/icons?i=nodejs,spring,express,nextjs,npm,js" /><br>
+</div>
+
+<h3>Database:</h3>
+<div>
+  <img src="https://skillicons.dev/icons?i=mysql,mongodb" /> 
+  <img src="https://github.com/devicons/devicon/blob/master/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg" title="sqlserver" alt="sqlserver" width="40" height="40"/>&nbsp;
+</div>
+
+<h3>Languages:</h3>
+<div>
+  <img src="https://skillicons.dev/icons?i=c,cpp,cs,python,java" /><br>
+</div>
+
+<h3>Design:</h3>
+    <img src="https://skillicons.dev/icons?i=figma,matlab,ps,ai,pr,notion" /><br>
+
+<br>
+  <h2>Statistics</h2>
+  <img width=390 src="https://github-readme-streak-stats-salesp07.vercel.app/?user=farhanj21&count_private=true&theme=react&border_radius=10" alt="streak stats"/> <br>
+  <img width=325 src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=farhanj21&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
+  <br/>
+  
+    
+</div>
+
+
+
+
