@@ -46,7 +46,7 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg" title="sqlserver" alt="sqlserver" width="40" height="40"/>&nbsp;
 </div>
 
- <h3>Artifical Intelligence:</h3>
+ <h3>Artificial Intelligence:</h3>
    <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn" /><br>
 
 <h3>Languages:</h3>
