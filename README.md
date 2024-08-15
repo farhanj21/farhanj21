@@ -22,7 +22,7 @@
   </div>
   <br>
   
-  <p><b>Contact me at:</b> farhanjafri21@gmail.com</p>
+  Contact me at: farhanjafri21@gmail.com
 
   <img src="https://komarev.com/ghpvc/?username=farhanj21&label=Profile%20views&color=red&style=flat" alt="farhanj2" /> 
   
