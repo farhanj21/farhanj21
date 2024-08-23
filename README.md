@@ -17,8 +17,10 @@
     <a href="https://twitter.com/fjayy21" target="blank">
       <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="shaafsalman_ss" height="40" width="40" />
   </a>
-    <a href="https://discord.gg/kensujin">
+    <a href="https://discord.gg/kensujin" target="blank">
       <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="kensujin" height="40" width="40" /></a>
+    <a href="https://open.spotify.com/user/w5tw11j1vphw3ngb8mqwczvai?si=dd48cc7fecb64d85" target="blank">
+      <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Green.png" alt="kensujin" height="40" width="40" /></a>
   </div>
   <br>
   
