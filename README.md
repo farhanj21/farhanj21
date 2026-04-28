@@ -4,25 +4,21 @@
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
   </h1>
   
-  <div id="badges">
-  <a href="https://www.linkedin.com/in/farhan-jafri21/" target="blank">
-    <img src="https://github.com/devicons/devicon/blob/master/icons/linkedin/linkedin-original.svg" alt="LinkedIn Badge" width="40" height="40"/>
-  </a>
-  <a href="https://www.youtube.com/c/Kensu2121" target="blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="Youtube Badge"  width="50" height="40"/>
-  </a>
-  <a href="https://www.instagram.com/syedfarhanjafri/" target="blank"> 
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram Badge" width="40" height="40"/>
-  </a>
-    <a href="https://twitter.com/fjayy21" target="blank">
-      <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="shaafsalman_ss" height="40" width="40" />
-  </a>
-    <a href="https://discord.gg/kensujin" target="blank">
-      <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="kensujin" height="40" width="40" /></a>
-    <a href="https://open.spotify.com/user/w5tw11j1vphw3ngb8mqwczvai?si=dd48cc7fecb64d85" target="blank">
-      <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Green.png" alt="kensujin" height="40" width="40" /></a>
-  </div>
-  <br>
+<table>
+<tr>
+<td><a href="https://www.linkedin.com/in/farhan-jafri21/"><img src="https://github.com/devicons/devicon/blob/master/icons/linkedin/linkedin-original.svg" width="40"/></a></td>
+
+<td><a href="https://www.youtube.com/c/Kensu2121"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" width="50"/></a></td>
+
+<td><a href="https://www.instagram.com/syedfarhanjafri/"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" width="40"/></a></td>
+
+<td><a href="https://twitter.com/fjayy21"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" width="40"/></a></td>
+
+<td><a href="https://discord.gg/kensujin"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" width="40"/></a></td>
+
+<td><a href="https://open.spotify.com/user/w5tw11j1vphw3ngb8mqwczvai"><img src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Green.png" width="40"/></a></td>
+</tr>
+</table>
   
   Contact me at: farhanjafri21@gmail.com
 
