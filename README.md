@@ -28,14 +28,9 @@
 
 ### :hammer_and_wrench: Languages and Tools :
 
-<h3>Frontend:</h3>
+<h3>Full Stack:</h3>
 <div>  
-    <img src="https://skillicons.dev/icons?i=java,react,spring,css,tailwind,html,bootstrap,javascript" /><br>
-</div>
-
-<h3>Backend:</h3>
-<div>
-  <img src="https://skillicons.dev/icons?i=nodejs,spring,express,nextjs,npm,js,jquery" /><br>
+    <img src="https://skillicons.dev/icons?i=java,react,css,tailwind,html,bootstrap,javascript,nodejs,spring,express,nextjs,npm,jquery" /><br>
 </div>
 
 <h3>Database:</h3>
@@ -56,16 +51,13 @@
     <img src="https://skillicons.dev/icons?i=figma,matlab,ps,ai,pr,notion" /><br>
 
 <h3>IDES:</h3>
-    <img src="https://skillicons.dev/icons?i=vscode,visualstudio,idea,pycharm,eclipse,powershell,wordpress,windows,linux" />
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Apache_NetBeans_Logo.svg/888px-Apache_NetBeans_Logo.svg.png"  height="40" width="35" />
-    <img src="https://store-images.s-microsoft.com/image/apps.8200.14525614036320964.388ccdd1-65a9-4bfc-81ce-c614493bcc79.5dfc4719-b603-45a1-a73e-bf55d9d25077?h=464"  height="40" width="35" /><br>
+    <img src="https://skillicons.dev/icons?i=vscode,visualstudio,idea,pycharm,eclipse,wordpress,linux" />
 
 <br>
   <h2>Statistics</h2>
   <img width=390 src="https://github-readme-streak-stats-salesp07.vercel.app/?user=farhanj21&count_private=true&theme=react&border_radius=10" alt="streak stats"/> <br>
   <img width=325 src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=farhanj21&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
   <br/>
-  
     
 </div>
 
