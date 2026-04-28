@@ -30,7 +30,7 @@
 
 <h3>Full Stack:</h3>
 <div>  
-    <img src="https://skillicons.dev/icons?i=java,react,css,tailwind,html,bootstrap,javascript,nodejs,spring,express,nextjs,npm,jquery" /><br>
+    <img src="https://skillicons.dev/icons?i=java,react,css,tailwind,html,bootstrap,javascript,nodejs,spring,express,nextjs,jquery" /><br>
 </div>
 
 <h3>Database:</h3>
