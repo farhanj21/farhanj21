@@ -3,26 +3,31 @@
   Hi, This is Syed Farhan Jafri
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
   </h1>
+
+<p >
+  <a href="https://www.linkedin.com/in/farhan-jafri21/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://www.youtube.com/c/Kensu2121" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
+  </a>
+  <a href="https://www.instagram.com/syedfarhanjafri/" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  <a href="https://twitter.com/fjayy21" target="_blank">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
+  </a>
+  <a href="https://discord.gg/kensujin" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+  </a>
+  <a href="https://open.spotify.com/user/w5tw11j1vphw3ngb8mqwczvai" target="_blank">
+    <img src="https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" />
+  </a>
+</p>
   
-<table>
-<tr>
-<td><a href="https://www.linkedin.com/in/farhan-jafri21/"><img src="https://github.com/devicons/devicon/blob/master/icons/linkedin/linkedin-original.svg" width="40"/></a></td>
+  Have a idea in mind? Let's talk farhanjafri21@gmail.com
 
-<td><a href="https://www.youtube.com/c/Kensu2121"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" width="50"/></a></td>
-
-<td><a href="https://www.instagram.com/syedfarhanjafri/"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" width="40"/></a></td>
-
-<td><a href="https://twitter.com/fjayy21"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" width="40"/></a></td>
-
-<td><a href="https://discord.gg/kensujin"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" width="40"/></a></td>
-
-<td><a href="https://open.spotify.com/user/w5tw11j1vphw3ngb8mqwczvai"><img src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Green.png" width="40"/></a></td>
-</tr>
-</table>
-  
-  Contact me at: farhanjafri21@gmail.com
-
-  <img src="https://komarev.com/ghpvc/?username=farhanj21&label=Profile%20views&color=red&style=flat" alt="farhanj2" /> 
+  <img src="https://komarev.com/ghpvc/?username=farhanj21&label=Profile%20views&color=red&style=flat" alt="farhanj21" /> 
   
   ---
 
@@ -50,13 +55,13 @@
 <h3>Design:</h3>
     <img src="https://skillicons.dev/icons?i=figma,matlab,ps,ai,pr,notion" /><br>
 
-<h3>IDES:</h3>
-    <img src="https://skillicons.dev/icons?i=vscode,visualstudio,idea,pycharm,eclipse,wordpress,linux" />
+<!-- <h3>IDES:</h3>
+    <img src="https://skillicons.dev/icons?i=vscode,visualstudio,idea,pycharm,eclipse,wordpress,linux" /> -->
 
 <br>
   <h2>Statistics</h2>
   <img width=390 src="https://github-readme-streak-stats-salesp07.vercel.app/?user=farhanj21&count_private=true&theme=react&border_radius=10" alt="streak stats"/> <br>
-  <img width=325 src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=farhanj21&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
+  <!-- <img width=325 src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=farhanj21&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" /> -->
   <br/>
     
 </div>
