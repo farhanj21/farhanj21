@@ -31,6 +31,11 @@ Have an idea in mind? Let's talk: **[farhanjafri21@gmail.com](mailto:farhanjafri
 **Design and tools**<br/>
 <img src="https://skillicons.dev/icons?i=figma,ps,ai,pr,matlab,notion&theme=dark" alt="Figma, Photoshop, Illustrator, Premiere Pro, MATLAB, Notion" />
 
+<h3><img src="./assets/projects.svg" width="100%" alt="Projects" /></h3>
+
+<a href="https://github.com/farhanj21"><img width="49%" src="./assets/cards/project-one.svg" alt="Project One" /></a>
+<a href="https://github.com/farhanj21"><img width="49%" src="./assets/cards/project-two.svg" alt="Project Two" /></a>
+
 <h3><img src="./assets/stats.svg" width="100%" alt="Stats" /></h3>
 <img width="49%" src="https://github-readme-streak-stats-salesp07.vercel.app/?user=farhanj21&count_private=true&background=0E1726&border=24365A&stroke=24365A&ring=F2B544&fire=FF5D73&currStreakNum=EAF0FA&sideNums=EAF0FA&currStreakLabel=F2B544&sideLabels=5CC8FF&dates=8A9BB8&border_radius=12" alt="Contribution streak" />
 

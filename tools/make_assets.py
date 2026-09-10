@@ -36,6 +36,30 @@ HEADERS = [
     ("STATS", "stats"),
 ]
 
+# Project cards: one entry per card, rendered to assets/cards/<file>.svg
+#   title - drawn in the pixel font, so stick to A-Z 0-9 space - . ! ' and keep it short
+#   tag   - small gold chip in the top right, e.g. the project type
+#   blurb - a sentence or two; it wraps automatically
+#   stack - the tech chips along the bottom (they must fit on one row)
+PROJECTS = [
+    {
+        "title": "PROJECT ONE",
+        "tag": "web",
+        "blurb": "Short description of what this project does and why it exists.",
+        "stack": ["Next.js", "TypeScript", "MongoDB"],
+        "file": "project-one",
+    },
+    {
+        "title": "PROJECT TWO",
+        "tag": "ml",
+        "blurb": "Short description of what this project does and why it exists.",
+        "stack": ["PyTorch", "Python", "FastAPI"],
+        "file": "project-two",
+    },
+]
+
+CARD_W = 480           # card width; two of these sit side by side in the README
+
 # Colors (keep these in sync with the hex codes in README.md if you change them)
 INK   = "#0E1726"   # background
 FRAME = "#24365A"   # borders and divider lines
@@ -241,8 +265,89 @@ def header(title, fname):
     with open(os.path.join(OUT, f"{fname}.svg"), "w", encoding="utf-8") as f:
         f.write(svg)
 
+def wrap(text, width):
+    lines, line = [], ""
+    for word in text.split():
+        trial = f"{line} {word}".strip()
+        if len(trial) > width and line:
+            lines.append(line)
+            line = word
+        else:
+            line = trial
+    if line:
+        lines.append(line)
+    return lines
+
+
+def card(p):
+    """One project card: the same chamfered panel, pixel title and gold accents as the hero."""
+    W = CARD_W
+    S, GAP = 4, 0.5              # pixel size for the title
+    pts, ncols = pixels(p["title"])
+    pad = 22
+    while ncols * S > W - pad * 2 - 76 and S > 2:
+        S -= 1
+    GAP = S / 8
+    title_y = 34
+    face = "".join(f'<rect x="{pad+c*S:g}" y="{title_y+r*S:g}" width="{S-GAP:g}" height="{S-GAP:g}"/>' for c, r in pts)
+    shadow = "".join(f'<rect x="{pad+2+c*S:g}" y="{title_y+2+r*S:g}" width="{S-GAP:g}" height="{S-GAP:g}"/>' for c, r in pts)
+
+    body_y = title_y + 7 * S + 32
+    lines = wrap(p["blurb"], int((W - pad * 2) / 7.35))
+    blurb = "".join(
+        f'<text x="{pad}" y="{body_y+i*21}" class="mono" font-size="13" fill="{MUTED}">{html.escape(t)}</text>'
+        for i, t in enumerate(lines))
+
+    chip_y = body_y + (len(lines) - 1) * 21 + 20
+    chips, x = [], pad
+    for t in p["stack"]:
+        w = round(len(t) * 7.4 + 18)
+        chips.append(f'<path d="{chamfer(x, chip_y, w, 22, 5)}" fill="none" stroke="{FRAME}" stroke-width="1.5"/>'
+                     f'<text x="{x+w/2:g}" y="{chip_y+15}" text-anchor="middle" class="mono" font-size="12" '
+                     f'fill="{SKY}">{html.escape(t)}</text>')
+        x += w + 8
+    if x - 8 > W - pad:
+        print(f"Warning: the stack chips on '{p['title']}' run past the edge of the card.")
+
+    H = chip_y + 22 + pad
+
+    tag = html.escape(p["tag"].upper())
+    tw = round(len(tag) * 7.4 + 16)
+    tag_svg = (f'<rect x="{W-pad-tw}" y="{title_y-2}" width="{tw}" height="18" fill="{GOLD}"/>'
+               f'<text x="{W-pad-tw/2:g}" y="{title_y+11.5:g}" text-anchor="middle" class="mono" font-size="11" '
+               f'font-weight="700" fill="{INK}">{tag}</text>')
+
+    label = html.escape(f'{p["title"].title()}. {p["blurb"]} Built with {", ".join(p["stack"])}.')
+    css = ".mono{font-family:%s}.blink{animation:blink 1s steps(1,end) infinite}" % MONO
+    css += "@keyframes blink{50%{opacity:0}}"
+    css += "@media (prefers-reduced-motion: reduce){*{animation:none!important}}"
+    return (
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" '
+        f'role="img" aria-label="{label}">\n'
+        f'<title>{html.escape(p["title"].title())}</title>\n'
+        f'<style>{css}</style>\n'
+        f'<path d="{chamfer(1, 1, W-2, H-2, 12)}" fill="{INK}" stroke="{FRAME}" stroke-width="2"/>\n'
+        f'<rect x="{pad}" y="{title_y-14}" width="{S*3}" height="{S}" fill="{GOLD}"/>\n'
+        f'{tag_svg}\n'
+        f'<g fill="{DEPTH}">{shadow}</g><g fill="{TEXT}">{face}</g>\n'
+        f'{blurb}\n'
+        f'{"".join(chips)}\n'
+        f'<text x="{W-pad}" y="{H-12}" text-anchor="end" class="mono blink" font-size="10" '
+        f'fill="{GOLD}">&#9654;</text>\n'
+        f'</svg>')
+
+
+def cards():
+    out = os.path.join(OUT, "cards")
+    os.makedirs(out, exist_ok=True)
+    for p in PROJECTS:
+        with open(os.path.join(out, f'{p["file"]}.svg'), "w", encoding="utf-8") as f:
+            f.write(card(p))
+
+
 if __name__ == "__main__":
     hero()
     for text, fname in HEADERS:
         header(text, fname)
-    print("Updated assets/hero.svg and", ", ".join(f"assets/{f}.svg" for _, f in HEADERS))
+    cards()
+    print("Updated assets/hero.svg,", ", ".join(f'assets/cards/{p["file"]}.svg' for p in PROJECTS), "and", ", ".join(f"assets/{f}.svg" for _, f in HEADERS))
