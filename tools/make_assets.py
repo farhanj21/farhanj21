@@ -31,7 +31,7 @@ SECONDS_PER_LINE = 4.5
 # Section headers: (text shown in pixels, file name in assets/)
 HEADERS = [
     ("ABOUT", "about"),
-    ("TECH STACK", "tech-stack"),
+    ("MY ARSENAL", "my-arsenal"),
     ("PROJECTS", "projects"),
     ("STATS", "stats"),
 ]
