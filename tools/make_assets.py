@@ -41,20 +41,39 @@ HEADERS = [
 #   tag   - small gold chip in the top right, e.g. the project type
 #   blurb - a sentence or two; it wraps automatically
 #   stack - the tech chips along the bottom (they must fit on one row)
+#   link  - where the card goes when clicked (repo, live demo, video...)
 PROJECTS = [
     {
-        "title": "PROJECT ONE",
+        "title": "Sheesh",
         "tag": "web",
-        "blurb": "Short description of what this project does and why it exists.",
+        "blurb": "An e-commerce store for mosaic mirroworks based in Lahore.",
         "stack": ["Next.js", "TypeScript", "MongoDB"],
+        "link": "https://www.sheeshpk.store/",
         "file": "project-one",
     },
     {
-        "title": "PROJECT TWO",
-        "tag": "ml",
-        "blurb": "Short description of what this project does and why it exists.",
-        "stack": ["PyTorch", "Python", "FastAPI"],
+        "title": "Check!",
+        "tag": "game",
+        "blurb": "A web-based, free-to-play online multiplayer card game for 2-6 players.",
+        "stack": ["Xstate", "Socket.io", "Framer Motion"],
+        "link": "https://check-the-game.vercel.app/",
         "file": "project-two",
+    },
+        {
+        "title": "0 to 100",
+        "tag": "web",
+        "blurb": "A 0-100 km/h acceleration analytics leaderboard featuring an AI assistant.",
+        "stack": ["D3.js", "Cloudinary", "Gemini AI"],
+        "link": "https://0to100-tracker.vercel.app/",
+        "file": "project-three",
+    },
+        {
+        "title": "Aleesa AI",
+        "tag": "agentic",
+        "blurb": "An AI receptionist for appoointment booking, conversations, CRM and orders through calls, texts, social media.",
+        "stack": ["Livekit", "Cerebras", "Cartesia"],
+        "link": "https://aleesa.ai/",
+        "file": "project-four",
     },
 ]
 
@@ -74,6 +93,9 @@ SKY   = "#5CC8FF"   # twinkling stars
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "assets")
 os.makedirs(OUT, exist_ok=True)
+
+BEGIN = "<!-- PROJECTS:start -->"      # the card links in README.md are rewritten
+END   = "<!-- PROJECTS:end -->"        # between these two comments
 
 MONO = "ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace"
 SANS = "-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
@@ -343,6 +365,25 @@ def cards():
     for p in PROJECTS:
         with open(os.path.join(out, f'{p["file"]}.svg'), "w", encoding="utf-8") as f:
             f.write(card(p))
+    readme()
+
+
+def readme():
+    """Rewrites the card links in README.md, between the PROJECTS markers."""
+    path = os.path.join(HERE, "..", "README.md")
+    with open(path, encoding="utf-8") as f:
+        text = f.read()
+    if BEGIN not in text or END not in text:
+        print(f"Skipped README.md: it needs the {BEGIN} and {END} comment markers.")
+        return
+    e = html.escape
+    block = "\n".join(
+        f'<a href="{e(p["link"], quote=True)}"><img width="49%" src="./assets/cards/{p["file"]}.svg" '
+        f'alt="{e(p["title"].title(), quote=True)}" /></a>' for p in PROJECTS)
+    head, rest = text.split(BEGIN, 1)
+    _, tail = rest.split(END, 1)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(f"{head}{BEGIN}\n{block}\n{END}{tail}")
 
 
 if __name__ == "__main__":

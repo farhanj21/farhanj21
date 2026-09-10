@@ -12,29 +12,15 @@
 
 A developer by profession but a gamer by heart. I have a passion for creating immersive experiences and innovative solutions. You can find me playing something cinema on my YouTube. Currently indulged in refining my skills and raging at FPS games. You might find me having a heart attack watching my favourite football team (Barcelona) play or watching cars go around in circles (F1).
 
-Have an idea in mind? Let's talk: **[farhanjafri21@gmail.com](mailto:farhanjafri21@gmail.com)**
-
-<h3><img src="./assets/tech-stack.svg" width="100%" alt="My weapons" /></h3>
-
-**Full stack**<br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,spring,java,javascript,html,css,tailwind,bootstrap,jquery&theme=dark" alt="React, Next.js, Node.js, Express, Spring, Java, JavaScript, HTML, CSS, Tailwind, Bootstrap, jQuery" />
-
-**Databases**<br/>
-<img src="https://skillicons.dev/icons?i=mysql,mongodb&theme=dark" alt="MySQL, MongoDB" /> <img src="./assets/sqlserver.svg" height="48" alt="Microsoft SQL Server" />
-
-**Machine learning**<br/>
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark" alt="PyTorch, TensorFlow, scikit-learn" />
-
-**Languages**<br/>
-<img src="https://skillicons.dev/icons?i=c,cpp,cs,python,java&theme=dark" alt="C, C++, C#, Python, Java" />
-
-**Design and tools**<br/>
-<img src="https://skillicons.dev/icons?i=figma,ps,ai,pr,matlab,notion&theme=dark" alt="Figma, Photoshop, Illustrator, Premiere Pro, MATLAB, Notion" />
 
 <h3><img src="./assets/projects.svg" width="100%" alt="Projects" /></h3>
 
-<a href="https://github.com/farhanj21"><img width="49%" src="./assets/cards/project-one.svg" alt="Project One" /></a>
-<a href="https://github.com/farhanj21"><img width="49%" src="./assets/cards/project-two.svg" alt="Project Two" /></a>
+<!-- PROJECTS:start -->
+<a href="https://www.sheeshpk.store/"><img width="49%" src="./assets/cards/project-one.svg" alt="Sheesh" /></a>
+<a href="https://check-the-game.vercel.app/"><img width="49%" src="./assets/cards/project-two.svg" alt="Check!" /></a>
+<a href="https://0to100-tracker.vercel.app/"><img width="49%" src="./assets/cards/project-three.svg" alt="0 To 100" /></a>
+<a href="https://aleesa.ai/"><img width="49%" src="./assets/cards/project-four.svg" alt="Aleesa Ai" /></a>
+<!-- PROJECTS:end -->
 
 <h3><img src="./assets/stats.svg" width="100%" alt="Stats" /></h3>
 <img width="49%" src="https://github-readme-streak-stats-salesp07.vercel.app/?user=farhanj21&count_private=true&background=0E1726&border=24365A&stroke=24365A&ring=F2B544&fire=FF5D73&currStreakNum=EAF0FA&sideNums=EAF0FA&currStreakLabel=F2B544&sideLabels=5CC8FF&dates=8A9BB8&border_radius=12" alt="Contribution streak" />
